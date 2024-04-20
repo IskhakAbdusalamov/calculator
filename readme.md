@@ -1,1 +1,1 @@
-# calculator for iPhone XR
+# calculator on iPhone XR
