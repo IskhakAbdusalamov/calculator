@@ -94,18 +94,19 @@ negative.addEventListener('click', () => {
 	result.innerHTML = resultValue;
 })
 
-percent.addEventListener('click', () => {
-	result.innerHTML = "";
-	if (firstValue != "") {
-		resultValue = firstValue / 100;
-		firstValue = resultValue;
-	}
-	if (firstValue != "" && secondvalue != "" && sign != "") {
-		resultValue = resultValue / 100;
-	}
+// %
+// 	percent.addEventListener('click', () => {
+// 	result.innerHTML = "";
+// 	if (firstValue != "") {
+// 		resultValue = firstValue / 100;
+// 		firstValue = resultValue;
+// 	}
+// 	if (firstValue != "" && secondvalue != "" && sign != "") {
+// 		resultValue = resultValue / 100;
+// 	}
 
-	result.innerHTML = resultValue;
-})
+// 	result.innerHTML = resultValue;
+// })
 
 clear.addEventListener('click', () => {
 	result.innerHTML = 0;
